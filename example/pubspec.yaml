@@ -9,8 +9,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  material_ui: ^1.0.0
   m3e_seekbar:
     path: ../
+
+dependency_overrides:
+  m3e_haptics:
+    path: ../../m3e_haptics
 
 dev_dependencies:
   flutter_test:

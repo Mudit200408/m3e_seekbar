@@ -1,6 +1,6 @@
 name: m3e_seekbar
 description: Material 3 Expressive seekbars and AOSP SystemUI squiggly wave progress bars with spring physics, tokens, and haptics.
-version: 0.0.1
+version: 1.0.0
 homepage: https://github.com/Mudit200408/m3e_seekbar
 repository: https://github.com/Mudit200408/m3e_seekbar
 issue_tracker: https://github.com/Mudit200408/m3e_seekbar/issues
@@ -13,13 +13,18 @@ topics:
 
 environment:
   sdk: ^3.12.2
-  flutter: ">=1.17.0"
+  flutter: ">=3.47.0"
 
 dependencies:
   flutter:
     sdk: flutter
+  material_ui: ^1.0.0
   motor: ^1.1.0
-  m3e_haptics: ^0.0.1
+  m3e_haptics: ^1.0.0
+
+dependency_overrides:
+  m3e_haptics:
+    path: ../m3e_haptics
 
 dev_dependencies:
   flutter_test:
