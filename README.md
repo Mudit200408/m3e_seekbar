@@ -44,7 +44,7 @@ Add `m3e_seekbar` and `material_ui` to your `pubspec.yaml`:
 ```yaml
 dependencies:
   material_ui: ^1.0.0
-  m3e_seekbar: ^1.0.0
+  m3e_seekbar: ^1.0.1
 ```
 
 ```dart
